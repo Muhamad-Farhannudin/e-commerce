@@ -28,8 +28,8 @@ console.log(sale);
                 <CountdownTimer targetDate={dateTimeAfterThreeDays} />
             </div>
               {sale.slice(7, 12).map((item, id) => (
-            <div className='w-[179px] h-[235px] border-r  border-gray-300' >
-              <div className='mx-5'>
+            <div className='w-[179px] h-[235px] border-r border-gray-300' >
+              <div className='mx-5 cursor-pointer '>
                 <img className='w-[140px] h-[140px]' key={id} src={item?.images[0]} alt={item?.title} />
                 <div className='flex flex-col items-center'>
                   <p className='pt-3 text-center text-dark font-normal text-base' key={id} >{item?.category}</p>

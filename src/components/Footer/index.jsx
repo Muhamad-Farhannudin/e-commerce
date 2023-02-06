@@ -13,58 +13,58 @@ export default function index() {
             <div className='w-[276px] h-[157px]'>
                 <img className='w-[150px] h-[46px]' src={Logo} alt="logo" />
                 <p className='font-normal text-base text-gray-600 mt-4'>Best information about the company gies here but now lorem ipsum is</p>
-                <div className='w-[200px] flex justify-between mt-4'>
-                    <div className='w-8 h-8 bg-gray-400 rounded-full text-white flex justify-center items-center text-base'>
+                <div className='w-[200px] flex justify-between mt-4 cursor-pointer'>
+                    <div className='w-8 h-8 hover:bg-gray-600 bg-gray-400 rounded-full text-white flex justify-center items-center text-base'>
                     <FaFacebookF />
                     </div>
-                    <div className='w-8 h-8 bg-gray-400 rounded-full text-white flex justify-center items-center text-base'>
+                    <div className='w-8 h-8 hover:bg-gray-600 bg-gray-400 rounded-full text-white flex justify-center items-center text-base'>
                     <FaTwitter />
                     </div>
-                    <div className='w-8 h-8 bg-gray-400 rounded-full text-white flex justify-center items-center text-base'>
+                    <div className='w-8 h-8 hover:bg-gray-600 bg-gray-400 rounded-full text-white flex justify-center items-center text-base'>
                     <FaLinkedinIn />
                     </div>
-                    <div className='w-8 h-8 bg-gray-400 rounded-full text-white flex justify-center items-center text-base'>
+                    <div className='w-8 h-8 hover:bg-gray-600 bg-gray-400 rounded-full text-white flex justify-center items-center text-base'>
                     <FaInstagram />
                     </div>
-                    <div className='w-8 h-8 bg-gray-400 rounded-full text-white flex justify-center items-center text-base'>
+                    <div className='w-8 h-8 hover:bg-gray-600 bg-gray-400 rounded-full text-white flex justify-center items-center text-base'>
                     <FaYoutube />
                     </div>
                 </div>
             </div>
             <div className='flex flex-col'>
                 <p className='font-medium text-base text-dark'>About</p>
-                <ul className='list-none font-normal text-base text-gray-500 mt-[10px] leading-7'>
-                    <li>About Us</li>
-                    <li>Find Store</li>
-                    <li>Categories</li>
-                    <li>Blogs</li>
+                <ul className='list-none font-normal text-base text-gray-500 mt-[10px] leading-7 cursor-pointer'>
+                    <li className='hover:text-dark'>About Us</li>
+                    <li className='hover:text-dark'>Find Store</li>
+                    <li className='hover:text-dark'>Categories</li>
+                    <li className='hover:text-dark'>Blogs</li>
                 </ul>
             </div>
             <div className='flex flex-col'>
                 <p className='font-medium text-base text-dark'>Partnerhip</p>
-                <ul className='list-none font-normal text-base text-gray-500 mt-[10px] leading-7'>
-                    <li>About Us</li>
-                    <li>Find Store</li>
-                    <li>Categories</li>
-                    <li>Blogs</li>
+                <ul className='list-none font-normal text-base text-gray-500 mt-[10px] leading-7 cursor-pointer'>
+                    <li className='hover:text-dark'>About Us</li>
+                    <li className='hover:text-dark'>Find Store</li>
+                    <li className='hover:text-dark'>Categories</li>
+                    <li className='hover:text-dark'>Blogs</li>
                 </ul>
             </div>
             <div className='flex flex-col'>
                 <p className='font-medium text-base text-dark'>Informatio</p>
-                <ul className='list-none font-normal text-base text-gray-500 mt-[10px] leading-7'>
-                    <li>Help Center</li>
-                    <li>Money Refund</li>
-                    <li>Shipping</li>
-                    <li>Contact Us</li>
+                <ul className='list-none font-normal text-base text-gray-500 mt-[10px] leading-7 cursor-pointer'>
+                    <li className='hover:text-dark'>Help Center</li>
+                    <li className='hover:text-dark'>Money Refund</li>
+                    <li className='hover:text-dark'>Shipping</li>
+                    <li className='hover:text-dark'>Contact Us</li>
                 </ul>
             </div>
             <div className='flex flex-col'>
                 <p className='font-medium text-base text-dark'>For users</p>
-                <ul className='list-none font-normal text-base text-gray-500 mt-[10px] leading-7'>
-                    <li>Login</li>
-                    <li>Register</li>
-                    <li>Settings</li>
-                    <li>My Orders</li>
+                <ul className='list-none font-normal text-base text-gray-500 mt-[10px] leading-7 cursor-pointer'>
+                    <li className='hover:text-dark'>Login</li>
+                    <li className='hover:text-dark'>Register</li>
+                    <li className='hover:text-dark'>Settings</li>
+                    <li className='hover:text-dark'>My Orders</li>
                 </ul>
             </div>
             <div className='flex flex-col'>

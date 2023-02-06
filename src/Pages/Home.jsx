@@ -12,11 +12,13 @@ import Services from '../parts/Home/Service'
 import Suppliers from '../parts/Home/Suppliers'
 import Subscribe from '../components/Subscribe'
 import Footer from '../components/Footer'
+import Breadcrumbs from '../Breadcrumbs'
 export default function Home() {
     return (
         <div>
         <Header />
         <Navigation />
+        <Breadcrumbs />
         <Main />
         <Sale fetchURL={Request.Allproduct} />
         <Skincare fetchURL={Request.Skincare} />
