@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import Rating from "../../assets/images/Ratings/rating4.png";
 import Dropdown from 'react-dropdown'
 
-export default function ({ fetchURL }) {
+export default function Content({ fetchURL }) {
   const [content, setContent] = useState([]);
 
   useEffect(() => {
