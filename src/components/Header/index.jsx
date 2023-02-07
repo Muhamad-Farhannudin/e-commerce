@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../../assets/images/logo.png";
-import { MdExpandMore, MdMessage } from "react-icons/md";
+import { MdMessage } from "react-icons/md";
 import { FaUser, FaShoppingCart, FaHeart } from "react-icons/fa";
 import Dropdown from 'react-dropdown'
 import Button from "../Button";
