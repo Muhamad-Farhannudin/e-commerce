@@ -8,9 +8,6 @@ import Rate5 from '../../assets/images/Ratings/rating5.png'
 export default function Sidebar() {
   const [toggle, setToggle] = useState(true);
   const [see, setSee] = useState(false);
-  const handleClick = () => {
-    setToggle((current) => !current);
-  };
 
   const [brand, setBrand] = useState(true);
   const [seebrand, setSeebrand] = useState(false);
