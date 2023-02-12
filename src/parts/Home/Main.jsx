@@ -7,7 +7,7 @@ import Button from '../../components/Button'
 export default function Main() {
   return (
     <>
-    <div className='max-w-full mx-[130px] mt-5 bg-white border border-gray-300 rounded-md'>
+    <div className='hidden lg:block max-w-full lg:mx-[130px] mt-5 bg-white lg:border lg:border-gray-300 lg:rounded-md'>
         <div className='flex justify-between py-5 px-[14px]'>
             <div className='w-[25%] h-[360px] lg:flex flex-col justify-center font-normal text-base text-gray-500 group hidden'>
                 <ul className='px-3 leading-10 cursor-pointer absolute'>
@@ -44,6 +44,9 @@ export default function Main() {
                 </div>
             </div>
         </div>
+    </div>
+    <div className='lg:hidden mx-4'>
+        <img src={ImageMain} alt="main" />
     </div>
     </>
   )

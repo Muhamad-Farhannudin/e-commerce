@@ -5,7 +5,7 @@ import Flag from '../../assets/images/flag.png'
 export default function index() {
   return (
     <>
-    <div className='max-w-full mx-[130px] flex items-center justify-between'>
+    <div className='hidden max-w-full mx-[130px] xl:flex items-center justify-between'>
         <div className='flex items-center justify-between w-1/2 group'>
             <div className='flex items-center w-1/5 justify-evenly group-hover:cursor-pointer'>
                 <MdMenu />
@@ -31,6 +31,12 @@ export default function index() {
                 <MdExpandMore />
             </div>
         </div>
+    </div>
+    <div className='md:hidden max-w-full h-9 flex mx-4 mt-4 justify-between px-3'>
+        <button className='bg-gray-200 text-blue px-3 rounded-md'>All Category</button>
+        <button className='bg-gray-200 text-blue px-3 rounded-md'>Gadgets</button>
+        <button className='bg-gray-200 text-blue px-3 rounded-md'>Clocthes</button>
+        <button className='bg-gray-200 text-blue px-3 rounded-md'>Accessoris</button>
     </div>
     </>
   )

@@ -13,9 +13,9 @@ import flag9 from '../../assets/images/Supplier/icon-9.png'
 export default function Suppliers() {
   return (
     <>
-      <div className="max-w-full mx-[130px] my-[30px]">
+      <div className="max-w-full mx-4 md:mx-[130px] my-[30px]">
         <h1 className="font-semibold text-dark text-2xl">Suppliers by region</h1>
-        <div className="flex justify-between mt-6">
+        <div className="grid grid-cols-2 gap-3 md:flex justify-between mt-6">
             <div className="flex items-center w-[221px] h-[36px]">
                 <img className="w-7 h-5" src={flag} alt="flag" />
                 <div className="font-normal flex flex-col ml-3">
@@ -52,7 +52,7 @@ export default function Suppliers() {
                 </div>
             </div>
         </div>
-        <div className="flex justify-between mt-6">
+        <div className="grid grid-cols-2 gap-3 md:flex justify-between mt-6">
             <div className="flex items-center w-[221px] h-[36px]">
                 <img className="w-7 h-5" src={flag1} alt="flag1" />
                 <div className="font-normal flex flex-col ml-3">

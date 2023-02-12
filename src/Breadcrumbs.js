@@ -6,7 +6,7 @@ export default function Breadcrumbs() {
   const location = useLocation();
 
   return (
-    <div className="max-w-full h-16 py-5 mx-[130px]">
+    <div className="max-w-full h-16 py-5 mx-4 md:mx-[130px]">
       <nav>
         <Link to="/" className={location.pathname === "/" ? "breadcrumbs-active" : "breadcrumbs-not-active"}>
           Home

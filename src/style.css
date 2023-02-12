@@ -2,36 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 
 body {
-    font-family: 'Inter', sans-serif;
-    background-color: white;
+  font-family: "Inter", sans-serif;
+  background-color: white;
 }
 
 /* button */
 .btn-primary {
-    color: white;
-    background: linear-gradient(180deg, #127FFF 0%, #0067FF 100%);
-    border-radius: 6px;
+  color: white;
+  background: linear-gradient(180deg, #127fff 0%, #0067ff 100%);
+  border-radius: 6px;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
 }
 
 .btn-primary:hover {
   opacity: 0.7;
-  transition: cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition-duration: .3s; 
 }
 
 .btn-secondary {
-    background-color: white;
-    color: #0D6EFD;
-    border: 1px solid #DEE2E7;
-    border-radius: 6px;
+  background-color: white;
+  color: #0d6efd;
+  border: 1px solid #dee2e7;
+  border-radius: 6px;
 }
 
 .btn-success {
-    background: #00B517;
-    border-radius: 8px;
+  background: #00b517;
+  border-radius: 8px;
 }
 
 /* Timer */
@@ -98,28 +98,28 @@ body {
 }
 
 .bg-skin {
-  background: #FFFFFF;
-/* white */
+  background: #ffffff;
+  /* white */
 
-border: 1px solid #FFFFFF;
-/* shadow-sm */
+  border: 1px solid #ffffff;
+  /* shadow-sm */
 
-box-shadow: 0px 1px 2px rgba(56, 56, 56, 0.08);
-border-radius: 6px;
+  box-shadow: 0px 1px 2px rgba(56, 56, 56, 0.08);
+  border-radius: 6px;
 }
 
 .bg-quote {
-  background: linear-gradient(94.99deg, #2C7CF1 7.19%, rgba(0, 209, 255, 0.5) 89.49%);
-  }
+  background: linear-gradient(94.99deg, #2c7cf1 7.19%, rgba(0, 209, 255, 0.5) 89.49%);
+}
 
 .quote {
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 1px 2px rgba(56, 56, 56, 0.25);
   border-radius: 6px;
 }
 
 .shadow-none {
-box-shadow: none;
+  box-shadow: none;
 }
 
 .shadow-all {

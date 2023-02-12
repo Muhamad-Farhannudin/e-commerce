@@ -3,11 +3,11 @@ import Button from '../Button'
 
 export default function index() {
   return (
-    <>
+    <>  
     <div className='w-full h-[190px] flex items-center bg-gray-200'>
         <div className='w-[617px] h-[113px] flex flex-col items-center mx-auto'>
             <h3 className='font-bold text-xl text-dark'>Subscribe on our newsletter</h3>
-            <p className='font-normal text-base text-[#606060]'>Get daily news on upcoming offers from many suppliers all over the world</p>
+            <p className='font-normal text-sm md:text-base text-[#606060]'>Get daily news on upcoming offers from many suppliers all over the world</p>
             <div className='flex mt-[21px] relative items-center'>
                 <input type="email" placeholder='Email' className='w-[275px] h-[40px] pl-9 text-dark border border-gray-300 rounded-md' />
                 <div className='absolute left-2'>
