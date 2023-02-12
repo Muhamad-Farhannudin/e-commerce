@@ -31,7 +31,7 @@ export default function index() {
               </div>
             </div>
           </div>
-          <div className="w-full grid grid-cols-3 mt-6 mx-10 md:mx-0 lg:flex justify-between pl-0 md:pl-32">
+          <div className="w-full grid grid-cols-3 mt-6 md:mx-0 lg:flex justify-between pl-0 md:pl-32">
             <div className="flex flex-col">
               <p className="font-medium text-base text-dark">About</p>
               <ul className="list-none font-normal text-base text-gray-500 mt-[10px] leading-7 cursor-pointer">

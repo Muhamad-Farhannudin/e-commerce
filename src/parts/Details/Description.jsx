@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Description() {
   return (
-    <div className='p-4'>
+    <div className='w-[500px] p-4'>
       <table className='w-[90%] border border-[#E0E7E9]'>
         <tr className='font-normal text-base text-dark'>
             <td className='w-40 bg-gray-200 border border-[#E0E7E9] pl-2'>Product Type:</td>

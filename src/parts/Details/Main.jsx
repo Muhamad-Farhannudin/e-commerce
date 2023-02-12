@@ -28,14 +28,14 @@ export default function Main() {
   };
 
   return (
-    <div className="max-w-full mx-[130px] bg-white border border-gray-300 rounded-md">
-      <div className="flex mt-5 mx-5 mb-[44px]">
+    <div className="max-w-full mx-4 md:mx-[130px] bg-white border border-gray-300 rounded-md">
+      <div className="grid grid-rows-1 md:flex mt-5 mx-5 mb-[44px]">
         <div className="w-[380px] h-[380px] p-4">
-        {/* eslint-disable-next-line */}
+          {/* eslint-disable-next-line */}
           <img src={sliderData.value} alt="image-slide" className="w-[345px] h-[345px]" />
           <div className="flex mt-5">
             {imgs.map((data, i) => (
-              <div key={data.id} className="w-[56px] h-[56px] cursor-pointer"> 
+              <div key={data.id} className="w-[56px] h-[56px] cursor-pointer">
                 {/* eslint-disable-next-line */}
                 <img
                   src={data.value}
@@ -43,18 +43,18 @@ export default function Main() {
                   onClick={() => {
                     handleClick(i);
                   }}
-                  className={sliderData.id===i? "w-[48px] h-[48px] border-2 border-gray-600 rounded-md border-solid":"border border-gray-300 rounded-md w-[48px] h-[48px]"}
+                  className={sliderData.id === i ? "w-[48px] h-[48px] border-2 border-gray-600 rounded-md border-solid" : "border border-gray-300 rounded-md w-[48px] h-[48px]"}
                 />
               </div>
             ))}
           </div>
         </div>
-        <div className="mx-5">
+        <div className="mx-5 mt-20 md:mt-0">
           <div className="flex items-center">
             <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M5.79508 10.875L1.62508 6.70504L0.205078 8.11504L5.79508 13.705L17.7951 1.70504L16.3851 0.295044L5.79508 10.875Z" fill="#00B517" />
             </svg>
-            <p className="font-normal text-base text-[#00B517]">In stock</p>
+            <p className="font-normal text-base text-[#00B517] pl-2">In stock</p>
           </div>
           <h1 className="font-bold text-dark text-xl">
             Mens Long Sleeve T-shirt Cotton Base <span className="block">Layer Slim Muscle</span>
@@ -105,6 +105,19 @@ export default function Main() {
               </div>
             </div>
           </div>
+          <div className="md:hidden w-full flex items-center mt-5">
+            <Button isPrimary className="w-[350px] h-[40px] font-normal text-base">
+              Send inquiry
+            </Button>
+            <Button isSecondary className="w-10 h-10 flex items-center justify-center ml-7">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.5 2.82495C14.76 2.82495 13.09 3.63495 12 4.91495C10.91 3.63495 9.24 2.82495 7.5 2.82495C4.42 2.82495 2 5.24495 2 8.32495C2 12.105 5.4 15.185 10.55 19.865L12 21.175L13.45 19.855C18.6 15.185 22 12.105 22 8.32495C22 5.24495 19.58 2.82495 16.5 2.82495ZM12.1 18.375L12 18.475L11.9 18.375C7.14 14.065 4 11.215 4 8.32495C4 6.32495 5.5 4.82495 7.5 4.82495C9.04 4.82495 10.54 5.81495 11.07 7.18495H12.94C13.46 5.81495 14.96 4.82495 16.5 4.82495C18.5 4.82495 20 6.32495 20 8.32495C20 11.215 16.86 14.065 12.1 18.375Z"
+                  fill="#0D6EFD"
+                />
+              </svg>
+            </Button>
+          </div>
           <div className="w-[430px] h-[296px] mt-5">
             <table className="w-full">
               <tr className="font-normal text-base">
@@ -145,7 +158,7 @@ export default function Main() {
             <hr className="w-[430px] border border-[#E0E0E0] mt-4" />
           </div>
         </div>
-        <div className="shadow-all bg-white w-[280px] h-[350px]">
+        <div className="hidden md:block shadow-all bg-white w-[280px] h-[350px]">
           <div className="my-5 mx-4">
             <div className="flex justify-between">
               <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">

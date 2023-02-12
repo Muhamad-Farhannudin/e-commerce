@@ -9,9 +9,9 @@ import Super from '../../assets/images/Releated/super.png'
 export default function Releated() {
   return (
     <>
-    <div className='max-w-full h-[330px] mx-[130px] bg-white border border-gray-300 rounded-md my-5'>
+    <div className='max-w-full h-full md:h-[330px] mx-4 md:mx-[130px] bg-white border border-gray-300 rounded-md my-5'>
       <p className='font-bold text-xl text-dark mt-5 ml-[22px]'>Releated Products</p>
-      <div className='flex justify-between mx-[22px] mt-4'>
+      <div className='grid grid-cols-2 gap-2 py-4 md:flex justify-between mx-[22px] mt-4'>
         <div>
             <img src={Img1} alt="img1" className='w-[172px] h-[172px]'/>
             <h3 className='font-normal text-base text-gray-600 mt-[14px]'>Thermos Electric Elegant</h3>
@@ -39,7 +39,7 @@ export default function Releated() {
         </div>
       </div>
     </div>
-    <div className='max-w-full mx-[130px] my-5'>
+    <div className='max-w-full mx-4 md:mx-[130px] my-5'>
     <img src={Super} alt="super"/>
     </div>
     </>

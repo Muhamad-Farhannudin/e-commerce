@@ -15,7 +15,7 @@ export default function Details() {
       <Navigation />
       <Breadcrumbs />
       <Main />
-      <div className="flex">
+      <div className="md:flex">
         <Navdetail />
         <Aside />
       </div>

@@ -7,7 +7,7 @@ import img5 from "../../assets/images/aside/img5.png";
 
 export default function Aside() {
   return (
-    <div className="w-[280px] h-[560px] bg-white border border-gray-300 rounded-md mt-5">
+    <div className="w-[280px] h-[560px] bg-white border border-gray-300 rounded-md mt-5 mx-4 md:mx-0">
       <div className="mt-5 ml-4">
         <p className="font-bold text-base text-dark">You many like</p>
       </div>

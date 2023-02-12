@@ -9,10 +9,10 @@ export default function ContentTop() {
     const defaultOption = options[0];
 
   return (
-    <div className='w-[920px] h-[62px] bg-white border border-gray-300 rounded-md flex items-center pl-5'>
+    <div className='w-[500px] md:w-[920px] h-[62px] mx-4 md:mx-0 bg-white border border-gray-300 rounded-md flex items-center pl-5'>
       <div className='w-full flex justify-between items-center'>
         <p className='font-normal text-base text-dark'>12,911 items in <span className='font-semibold'>Mobile accessory</span></p>
-        <div className='flex items-center'>
+        <div className='md:flex items-center hidden '>
             <input type="checkbox" />
             <p className='font-normal text-dark text-base ml-1'>Verified only</p>
             <Dropdown options={options} value={defaultOption} placeholder="Select an option" className='ml-2 cursor-pointer'/>

@@ -15,7 +15,7 @@ export default function Product() {
       <Header />
       <Navigation />
       <Breadcrumbs />
-      <div className='flex'>
+      <div className='flex justify-between mx-4 md:mx-[130px]'>
         <Sidebar />
         <div className='flex flex-col'>
           <ContentTop />

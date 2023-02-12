@@ -16,16 +16,16 @@ export default function Content({ fetchURL }) {
   const defaultOption = options[0];
 
   return (
-    <div className="mb-[43px]">
+    <div className="mb-[43px] mx-4 md:mx-0">
       {content.map((item) => (
-        <div className="max-w-full mt-5 bg-white border border-gray-300 rounded-md flex items-center mb-[21px]">
-          <img className="w-[184px] h-[184px] pl-2 py-3 cursor-pointer" src={item?.images[0]} alt={item?.title} />
+        <div className="md:max-w-full mt-5 bg-white border border-gray-300 rounded-md flex items-center mb-[21px]">
+          <img className="w-[160px] h-[160px] md:w-[184px] md:h-[184px] pl-2 py-3 cursor-pointer" src={item?.images[0]} alt={item?.title} />
           <div className="ml-3 py-6">
             <h3 className="font-semibold text-base text-dark cursor-pointer">{item?.title}</h3>
             <h2 className="font-bold text-xl text-dark mt-4">
               ${item?.price} <s className="text-base text-gray-500">${item?.discountPercentage}</s>
             </h2>
-            <div className="flex">
+            <div className="grid grid-rows-2 md:flex">
               <div className="flex items-center">
                 <img src={Rating} alt="Rating-4" className="w-[80px] h-[15px]" />
                 <p className="font-normal text-base text-[#FF9017] ml-[6px]">7.5</p>
@@ -43,14 +43,14 @@ export default function Content({ fetchURL }) {
                 <p className="font-normal text-base text-[#00B517] ml-[9px]">Free Shipping</p>
               </div>
             </div>
-            <p className="w-[600px] font-normal text-base text-gray-600 mt-3">{item?.description} Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, nihil? Voluptates repellendus ad ea assumenda.</p>
+            <p className="w-[250px] md:w-[600px] font-normal text-base text-gray-600 mt-3">{item?.description} Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, nihil? Voluptates repellendus ad ea assumenda.</p>
             <div className="w-[96px]">
               <p className="font-semibold text-base text-[#0D6EFD] mt-2 cursor-pointer hover:text-opacity-70 hover:text-transition hover:duration-300">View details</p>
             </div>
           </div>
         </div>
       ))}
-      <div className="flex justify-end">
+      <div className="mx-4 flex justify-end">
         <div className="w-[125px] h-10 mr-2">
           <Dropdown options={options} value={defaultOption} placeholder="Select an option" className='ml-2 cursor-pointer'/>
         </div>

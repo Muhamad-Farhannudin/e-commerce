@@ -37,7 +37,7 @@ export default function Sidebar() {
   };
 
   return (
-    <div className="w-[240px] h-full mx-[130px]">
+    <div className="hidden lg:block w-[240px] h-full ml-4 md:ml-0">
       <div className="">
         <ul>
           <li>
