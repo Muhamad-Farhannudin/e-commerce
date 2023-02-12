@@ -9,8 +9,8 @@ export default function Main() {
     <>
     <div className='max-w-full mx-[130px] mt-5 bg-white border border-gray-300 rounded-md'>
         <div className='flex justify-between py-5 px-[14px]'>
-            <div className='w-[25%] h-[360px] flex flex-col justify-center font-normal text-base text-gray-500 group'>
-                <ul className='px-3 leading-10 cursor-pointer'>
+            <div className='w-[25%] h-[360px] lg:flex flex-col justify-center font-normal text-base text-gray-500 group hidden'>
+                <ul className='px-3 leading-10 cursor-pointer absolute'>
                     <li className='pl-3 hover:font-medium hover:text-dark hover:bg-[#E5F1FF]'>Automobiles</li>
                     <li className='pl-3 hover:font-medium hover:text-dark hover:bg-[#E5F1FF]'>Clothes and wear</li>
                     <li className='pl-3 hover:font-medium hover:text-dark hover:bg-[#E5F1FF]'>Home interiors</li>
