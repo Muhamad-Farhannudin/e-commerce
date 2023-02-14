@@ -6,7 +6,7 @@ import Rev4 from '../../assets/images/Review/rev4.png'
 export default function Review() {
   return (
     <div className='p-4'>
-      <div className='w-[450px] md:w-[800px]'>
+      <div className='w-[300px] md:w-[800px]'>
         <img src={Rev1} alt="rev-1" />
         <img src={Rev2} alt="rev-2" />
         <img src={Rev3} alt="rev-3" />

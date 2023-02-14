@@ -16,9 +16,9 @@ export default function Content({ fetchURL }) {
   const defaultOption = options[0];
 
   return (
-    <div className="mb-[43px] mx-4 md:mx-0">
+    <div className="w-[320px] md:max-w-full mb-[43px] mx-4 md:mx-0">
       {content.map((item) => (
-        <div className="md:max-w-full mt-5 bg-white border border-gray-300 rounded-md flex items-center mb-[21px]">
+        <div className="w-full md:max-w-full mt-5 bg-white border border-gray-300 rounded-md flex items-center mb-[21px]">
           <img className="w-[160px] h-[160px] md:w-[184px] md:h-[184px] pl-2 py-3 cursor-pointer" src={item?.images[0]} alt={item?.title} />
           <div className="ml-3 py-6">
             <h3 className="font-semibold text-base text-dark cursor-pointer">{item?.title}</h3>
@@ -43,7 +43,7 @@ export default function Content({ fetchURL }) {
                 <p className="font-normal text-base text-[#00B517] ml-[9px]">Free Shipping</p>
               </div>
             </div>
-            <p className="w-[250px] md:w-[600px] font-normal text-base text-gray-600 mt-3">{item?.description} Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, nihil? Voluptates repellendus ad ea assumenda.</p>
+            <p className="hidden md:block w-[250px] md:w-[600px] font-normal text-base text-gray-600 mt-3">{item?.description} Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, nihil? Voluptates repellendus ad ea assumenda.</p>
             <div className="w-[96px]">
               <p className="font-semibold text-base text-[#0D6EFD] mt-2 cursor-pointer hover:text-opacity-70 hover:text-transition hover:duration-300">View details</p>
             </div>

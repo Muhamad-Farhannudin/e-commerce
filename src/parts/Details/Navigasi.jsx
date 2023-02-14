@@ -11,7 +11,7 @@ export default function Navigasi() {
   return (
     <>
       <div className="w-full h-12 border-b border-gray-300">
-        <div className="w-[478px] h-full flex justify-between font-semibold text-base px-6 py-2">
+        <div className="w-[350px] md:w-[478px] h-full flex justify-between font-semibold text-xs md:text-base px-6 py-2">
           <button onClick={() => setTab('description') } >
             <h3 className={tab === 'description' ? 'text-blue': 'text-gray-500'}>Descriptions</h3>
           </button>

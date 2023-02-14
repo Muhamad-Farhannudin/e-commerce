@@ -3,7 +3,7 @@ import React from 'react'
 export default function AboutCompany() {
   return (
     <div className='p-4'>
-      <div className='w-[400px] md:w-[700px] text-base'>
+      <div className='w-[300px] md:w-[700px] text-sm md:text-base'>
         <p>FOUR FORCES INTERNATIONAL trading company is a wholesale company that manufactures good & high quality knitting wear and woven wear, sportswear, fashion clothing for men & women starting from 2008. The company provides the customized products and OEM service. Various new collections and design are coming out each month with the current styles and fabrics. The factory own the proficient skill and updated machine,</p>
         <br />
         <p>At FOUR FORCES INTERNATIONAL our 1st goal is to offer high quality custom sportswear & equipments at a great price with the BEST SERVICE in the industry.</p>

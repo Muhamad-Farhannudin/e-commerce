@@ -7,7 +7,7 @@ export default function index() {
     <div className='max-w-full h-[190px] md:max-w-full mx-4 md:mx-0 flex items-center bg-gray-200'>
         <div className='max-w-full h-[113px] flex flex-col items-center mx-auto'>
             <h3 className='font-bold text-xl text-dark'>Subscribe on our newsletter</h3>
-            <p className='font-normal text-sm md:text-base text-[#606060]'>Get daily news on upcoming offers from many suppliers all over the world</p>
+            <p className='font-normal mx-4 md:mx-0 text-sm md:text-base text-[#606060]'>Get daily news on upcoming offers from many suppliers all over the world</p>
             <div className='flex mt-[21px] relative items-center'>
                 <input type="email" placeholder='Email' className='w-[200px] md:w-[275px] h-[40px] pl-9 text-dark border border-gray-300 rounded-md' />
                 <div className='absolute left-2'>

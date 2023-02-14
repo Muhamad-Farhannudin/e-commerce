@@ -30,10 +30,10 @@ export default function Main() {
   return (
     <div className="max-w-full mx-4 md:mx-[130px] bg-white border border-gray-300 rounded-md">
       <div className="grid grid-rows-1 md:flex mt-5 mx-5 mb-[44px]">
-        <div className="w-[380px] h-[380px] p-4">
+        <div className="w-[300px] md:w-[380px] h-[380px] p-0 md:p-4">
           {/* eslint-disable-next-line */}
-          <img src={sliderData.value} alt="image-slide" className="w-[345px] h-[345px]" />
-          <div className="flex mt-5">
+          <img src={sliderData.value} alt="image-slide" className="w-[280px] md:w-[345px] h-[345px]" />
+          <div className="flex mt-5 w-[300px] md:w-full">
             {imgs.map((data, i) => (
               <div key={data.id} className="w-[56px] h-[56px] cursor-pointer">
                 {/* eslint-disable-next-line */}
@@ -49,19 +49,19 @@ export default function Main() {
             ))}
           </div>
         </div>
-        <div className="mx-5 mt-20 md:mt-0">
+        <div className="mx-0 md:mx-5 mt-20 md:mt-0">
           <div className="flex items-center">
             <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M5.79508 10.875L1.62508 6.70504L0.205078 8.11504L5.79508 13.705L17.7951 1.70504L16.3851 0.295044L5.79508 10.875Z" fill="#00B517" />
             </svg>
             <p className="font-normal text-base text-[#00B517] pl-2">In stock</p>
           </div>
-          <h1 className="font-bold text-dark text-xl">
+          <h1 className="font-bold text-dark text-base md:text-xl">
             Mens Long Sleeve T-shirt Cotton Base <span className="block">Layer Slim Muscle</span>
           </h1>
-          <div className="flex">
+          <div className="flex w-[330px] md:w-full">
             <div className="flex items-center">
-              <img src={Rating} alt="Rating-4" className="w-[80px] h-[15px]" />
+              <img src={Rating} alt="Rating-4" className="w-[50px] md:w-[80px] h-[15px]" />
               <p className="font-normal text-base text-[#FF9017] ml-[6px]">9.3</p>
             </div>
             <div className="flex items-center ml-3">
@@ -74,7 +74,7 @@ export default function Main() {
                   fill="#8B96A5"
                 />
               </svg>
-              <p className="font-normal text-base text-gray-500 ml-[9px]">32 Review</p>
+              <p className="font-normal text-xs md:text-base text-gray-500 ml-[9px]">32 Review</p>
             </div>
             <div className="flex items-center ml-[9px]">
               <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -86,11 +86,11 @@ export default function Main() {
                   fill="#8B96A5"
                 />
               </svg>
-              <p className="font-normal text-base text-gray-500 ml-[9px]">154 sold</p>
+              <p className="font-normal text-xs md:text-base text-gray-500 ml-[9px]">154 sold</p>
             </div>
           </div>
-          <div className="py-3 mt-[11px] w-[430px] h-[72px] bg-[#FFF0DF]">
-            <div className="flex ml-4 justify-between w-[310px]">
+          <div className="py-3 mt-[11px] w-[300px] md:w-[430px] h-[72px] bg-[#FFF0DF]">
+            <div className="flex ml-4 justify-between w-[250px] md:w-[310px]">
               <div>
                 <h3 className="font-bold text-lg text-red">$98.00</h3>
                 <p className="font-normal text-sm text-[#606060]">50-100 pcs</p>
@@ -105,7 +105,7 @@ export default function Main() {
               </div>
             </div>
           </div>
-          <div className="md:hidden w-full flex items-center mt-5">
+          <div className="md:hidden w-[300px] md:w-full flex items-center mt-5">
             <Button isPrimary className="w-[350px] h-[40px] font-normal text-base">
               Send inquiry
             </Button>
@@ -118,14 +118,14 @@ export default function Main() {
               </svg>
             </Button>
           </div>
-          <div className="w-[430px] h-[296px] mt-5">
+          <div className="w-[300px] md:w-[430px] h-[296px] mt-5">
             <table className="w-full">
               <tr className="font-normal text-base">
                 <td className="text-gray-500 w-40">Price:</td>
                 <td className="text-gray-600">Negotiable</td>
               </tr>
             </table>
-            <hr className="w-[430px] border border-[#E0E0E0] mt-4" />
+            <hr className="w-[300px] md:w-[430px] border border-[#E0E0E0] mt-4" />
             <table className="w-full mt-4">
               <tr className="font-normal text-base">
                 <td className="text-gray-500 w-40">Type:</td>
@@ -140,7 +140,7 @@ export default function Main() {
                 <td className="text-gray-600">Modern nice</td>
               </tr>
             </table>
-            <hr className="w-[430px] border border-[#E0E0E0] mt-4" />
+            <hr className="w-[300px] md:w-[430px] border border-[#E0E0E0] mt-4" />
             <table className="w-full mt-4">
               <tr className="font-normal text-base">
                 <td className="text-gray-500 w-40 absolute">Customization:</td>
@@ -155,7 +155,7 @@ export default function Main() {
                 <td className="text-gray-600">2 years full warranty</td>
               </tr>
             </table>
-            <hr className="w-[430px] border border-[#E0E0E0] mt-4" />
+            <hr className="w-[300px] md:w-[430px] border border-[#E0E0E0] mt-4" />
           </div>
         </div>
         <div className="hidden md:block shadow-all bg-white w-[280px] h-[350px]">
