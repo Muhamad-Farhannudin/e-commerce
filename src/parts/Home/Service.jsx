@@ -8,9 +8,9 @@ export default function Service() {
   return (
     <>
       <div className="max-w-full mx-4 md:mx-[130px] my-[30px]">
-        <h1 className="font-semibold text-dark text-2xl">Our extra services</h1>
-        <div className="grid grid-cols-2 gap-2 md:flex justify-between mt-6">
-          <div className="w-[220px] h-[180px] md:w-[280px] md:h-[200px] rounded-md border border-gray-200 bg-white relative">
+        <h1 className="font-semibold text-dark text-lg md:text-2xl">Our extra services</h1>
+        <div className="grid grid-cols-2  md:flex justify-between mt-6">
+          <div className="w-[180px] h-[190px] md:w-[280px] md:h-[200px] rounded-md border border-gray-200 bg-white relative">
             <div className="rounded-t-md w-full h-[120px] bg-dark">
               <img src={imgService1} alt="service-1" className="w-full h-full"/>
               <div className="flex items-center justify-center w-[48px] h-[48px] md:w-[55px] md:h-[55px] absolute right-5 -translate-y-7 bg-[#D1E7FF] border-2 border-white rounded-full cursor-pointer hover:scale-110 transition duration-700 ease-out hover:shadow-lg">
@@ -26,7 +26,7 @@ export default function Service() {
               Source from <span className="block">Industry Hubs</span>
             </p>
           </div>
-          <div className="w-[220px] h-[180px] md:w-[280px] md:h-[200px] rounded-md border border-gray-200 bg-white relative">
+        <div className="w-[180px] h-[190px] md:w-[280px] md:h-[200px] rounded-md border border-gray-200 bg-white relative">
             <div className="rounded-t-md w-full h-[120px] bg-dark">
               <img src={imgService2} alt="service-2" className="w-full h-full" />
               <div className="flex items-center justify-center w-[48px] h-[48px] md:w-[55px] md:h-[55px] absolute right-5 -translate-y-7 bg-[#D1E7FF] border-2 border-white rounded-full cursor-pointer hover:scale-110 transition duration-700 ease-out hover:shadow-lg">
@@ -40,7 +40,7 @@ export default function Service() {
               Customize your<span className="block">Products</span>
             </p>
           </div>
-          <div className="w-[220px] h-[180px] md:w-[280px] md:h-[200px] rounded-md border border-gray-200 bg-white relative">
+        <div className="w-[180px] h-[190px] md:w-[280px] md:h-[200px] rounded-md border border-gray-200 bg-white relative">
             <div className="rounded-t-md w-full h-[120px] bg-dark">
               <img src={imgService3} alt="service-3" className="w-full h-full" />
               <div className="flex items-center justify-center w-[48px] h-[48px] md:w-[55px] md:h-[55px] absolute right-5 -translate-y-7 bg-[#D1E7FF] border-2 border-white rounded-full cursor-pointer hover:scale-110 transition duration-700 ease-out hover:shadow-lg">
@@ -53,7 +53,7 @@ export default function Service() {
               Fast, reliable shipping<span className="block">by ocean or air</span>
             </p>
           </div>
-          <div className="w-[220px] h-[180px] md:w-[280px] md:h-[200px] rounded-md border border-gray-200 bg-white relative">
+        <div className="w-[180px] h-[190px] md:w-[280px] md:h-[200px] rounded-md border border-gray-200 bg-white relative">
             <div className="rounded-t-md w-full h-[120px] bg-dark">
               <img src={imgService4} alt="service-4" className="w-full h-full" />
               <div className="flex items-center justify-center w-[48px] h-[48px] md:w-[55px] md:h-[55px] absolute right-5 -translate-y-7 bg-[#D1E7FF] border-2 border-white rounded-full cursor-pointer hover:scale-110 transition duration-700 ease-out hover:shadow-lg">

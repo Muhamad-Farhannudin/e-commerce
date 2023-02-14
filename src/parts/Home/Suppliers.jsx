@@ -16,35 +16,35 @@ export default function Suppliers() {
       <div className="max-w-full mx-4 md:mx-[130px] my-[30px]">
         <h1 className="font-semibold text-dark text-2xl">Suppliers by region</h1>
         <div className="grid grid-cols-2 gap-3 md:flex justify-between mt-6">
-            <div className="flex items-center w-[221px] h-[36px]">
+            <div className="flex items-center w-[150px] md:w-[221px] h-[36px]">
                 <img className="w-7 h-5" src={flag} alt="flag" />
                 <div className="font-normal flex flex-col ml-3">
                     <h3 className="text-base text-dark">Arabic Emirates</h3>
                     <p className="text-[13px] text-gray-500">shopname.ae</p>
                 </div>
             </div>
-            <div className="flex items-center w-[221px] h-[36px]">
+            <div className="flex items-center w-[150px] md:w-[221px] h-[36px]">
                 <img className="w-7 h-5" src={flag4} alt="flag4" />
                 <div className="font-normal flex flex-col ml-3">
                     <h3 className="text-base text-dark">Australia</h3>
                     <p className="text-[13px] text-gray-500">shopname.ae</p>
                 </div>
             </div>
-            <div className="flex items-center w-[221px] h-[36px]">
+            <div className="flex items-center w-[150px] md:w-[221px] h-[36px]">
                 <img className="w-7 h-5" src={flag2} alt="flag2" />
                 <div className="font-normal flex flex-col ml-3">
                     <h3 className="text-base text-dark">United States</h3>
                     <p className="text-[13px] text-gray-500">shopname.ae</p>
                 </div>
             </div>
-            <div className="flex items-center w-[221px] h-[36px]">
+            <div className="flex items-center w-[150px] md:w-[221px] h-[36px]">
                 <img className="w-7 h-5" src={flag9} alt="flag9" />
                 <div className="font-normal flex flex-col ml-3">
                     <h3 className="text-base text-dark">Russia</h3>
                     <p className="text-[13px] text-gray-500">shopname.ru</p>
                 </div>
             </div>
-            <div className="flex items-center w-[221px] h-[36px]">
+            <div className="flex items-center w-[150px] md:w-[221px] h-[36px]">
                 <img className="w-7 h-5" src={flag7} alt="flag7" />
                 <div className="font-normal flex flex-col ml-3">
                     <h3 className="text-base text-dark">Italy</h3>
@@ -53,35 +53,35 @@ export default function Suppliers() {
             </div>
         </div>
         <div className="grid grid-cols-2 gap-3 md:flex justify-between mt-6">
-            <div className="flex items-center w-[221px] h-[36px]">
+            <div className="flex items-center w-[150px] md:w-[221px] h-[36px]">
                 <img className="w-7 h-5" src={flag1} alt="flag1" />
                 <div className="font-normal flex flex-col ml-3">
                     <h3 className="text-base text-dark">Denmark</h3>
                     <p className="text-[13px] text-gray-500">denmark.com.dk</p>
                 </div>
             </div>
-            <div className="flex items-center w-[221px] h-[36px]">
+            <div className="flex items-center w-[150px] md:w-[221px] h-[36px]">
                 <img className="w-7 h-5" src={flag5} alt="flag5" />
                 <div className="font-normal flex flex-col ml-3">
                     <h3 className="text-base text-dark">France</h3>
                     <p className="text-[13px] text-gray-500">shopname.com.fr</p>
                 </div>
             </div>
-            <div className="flex items-center w-[221px] h-[36px]">
+            <div className="flex items-center w-[150px] md:w-[221px] h-[36px]">
                 <img className="w-7 h-5" src={flag3} alt="flag3" />
                 <div className="font-normal flex flex-col ml-3">
                     <h3 className="text-base text-dark">Arabic Emirates</h3>
                     <p className="text-[13px] text-gray-500">shopname.ae</p>
                 </div>
             </div>
-            <div className="flex items-center w-[221px] h-[36px]">
+            <div className="flex items-center w-[150px] md:w-[221px] h-[36px]">
                 <img className="w-7 h-5" src={flag6} alt="flag6" />
                 <div className="font-normal flex flex-col ml-3">
                     <h3 className="text-base text-dark">China</h3>
                     <p className="text-[13px] text-gray-500">shopname.ae</p>
                 </div>
             </div>
-            <div className="flex items-center w-[221px] h-[36px]">
+            <div className="flex items-center w-[150px] md:w-[221px] h-[36px]">
                 <img className="w-7 h-5" src={flag8} alt="flag8" />
                 <div className="font-normal flex flex-col ml-3">
                     <h3 className="text-base text-dark">Great Britain</h3>

@@ -33,10 +33,9 @@ export default function index() {
         </div>
     </div>
     <div className='md:hidden max-w-full h-9 flex mx-4 mt-4 justify-between px-3'>
-        <button className='bg-gray-200 text-blue px-3 rounded-md'>All Category</button>
-        <button className='bg-gray-200 text-blue px-3 rounded-md'>Gadgets</button>
-        <button className='bg-gray-200 text-blue px-3 rounded-md'>Clocthes</button>
-        <button className='bg-gray-200 text-blue px-3 rounded-md'>Accessoris</button>
+        <button className='bg-gray-200 text-sm text-blue px-3 rounded-md'>All Category</button>
+        <button className='bg-gray-200 text-sm text-blue px-3 rounded-md'>Gadgets</button>
+        <button className='bg-gray-200 text-sm text-blue px-3 rounded-md'>Clocthes</button>
     </div>
     </>
   )
